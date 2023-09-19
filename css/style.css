@@ -94,7 +94,18 @@ img{
  	height: 60vh;
 	/* width: 30vw; */
 }
-
+/* hero1 */
+.hero1 .h6{
+	letter-spacing: 15px;
+}
+.hero1 .h4{
+	font-weight: 100;
+}
+.hero1 img {
+	height: 100px;
+	width: 100px;
+	
+}
 /* responsive */
 @media (min-width: 1230px) and (max-width: 1435px){
 	.hero .h1 {
