@@ -22,6 +22,9 @@ html body{
 ::-webkit-scrollbar{
 	display: none;
 }
+::selection{
+	background: black ;
+}
 *{
 	margin: 0;
 	padding: 0;
@@ -106,6 +109,38 @@ img{
 	width: 100px;
 	
 }
+/* hero2 */
+.hero2 .h5{
+	letter-spacing: 15px;
+}
+.hero2 form input{
+	
+	background: transparent;
+}
+.hero2 form input:focus{
+	outline: 0 !important;
+	box-shadow: none !important;
+	background: transparent;
+}
+.send{
+	border: 1px solid var(--text-purple2);
+	border-radius: 5000px;
+	padding: 1rem;
+	position: relative;
+    top: 47px;
+	letter-spacing: 0.6rem;
+}
+.hero2 form .send:hover{
+	text-decoration: none;
+	color: var(--text-purple2);
+}
+.hero2 form .send i{
+	margin-left: 0.6rem;
+	color: var(--text-purple2);
+}
+.hero2 form .send:hover i{
+	color: var(--text-orange);
+}
 /* responsive */
 @media (min-width: 1230px) and (max-width: 1435px){
 	.hero .h1 {
@@ -174,9 +209,7 @@ img{
 	
 }
 @media  (min-width: 350px) and (max-width: 500px) {
-	.hero img {
-		/* height: 35vh; */
-	}
+	
 }
 @media  (min-width: 260px) and (max-width: 349px){
 	.hero img {
