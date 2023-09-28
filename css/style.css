@@ -20,7 +20,7 @@ html body{
 
 }
 ::-webkit-scrollbar{
-	display: none;
+	/* display: none; */
 }
 ::selection{
 	background: black ;
@@ -209,10 +209,12 @@ img{
 	
 }
 @media  (min-width: 350px) and (max-width: 500px) {
-	
+	.hero img {
+		height: 90vw;
+	}
 }
 @media  (min-width: 260px) and (max-width: 349px){
 	.hero img {
-		height: 40vh;
+		/* height: 40vh; */
 	}
 }
